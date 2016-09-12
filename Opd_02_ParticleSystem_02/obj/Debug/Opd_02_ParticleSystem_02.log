@@ -1,0 +1,7 @@
+﻿  ofApp.cpp
+c:\openframeworks\apps\heavyop_tuur\opd_02_particlesystem_02\src\ofApp.h(15): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  c:\openframeworks\apps\heavyop_tuur\opd_02_particlesystem_02\src\ofApp.h(15): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
+  Opd_02_ParticleSystem_02.vcxproj -> C:\OpenFrameworks\apps\HeavyOP_Tuur\Opd_02_ParticleSystem_02\bin\Opd_02_ParticleSystem_02_debug.exe
+  Opd_02_ParticleSystem_02.vcxproj -> bin\Opd_02_ParticleSystem_02_debug.pdb (Full PDB)
+  
+  	                   9	C:\OpenFrameworks\export\vs\Win32\
