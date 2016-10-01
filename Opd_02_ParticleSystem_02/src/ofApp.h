@@ -2,6 +2,9 @@
 
 #include "ofMain.h"
 #include "Particle.h"
+#include "Spawner.h"
+
+#define num 10000
 
 class ofApp : public ofBaseApp {
 
@@ -12,7 +15,9 @@ public:
 
 	void keyPressed(int key);
 
-	Particle part1[];
+
+	//Spawner movert;
+	Particle cy[num];
 
 	//void Spawning();
 

@@ -7,17 +7,16 @@ Particle::Particle() {
 	//speed.x = ofRandom(-5, 5);
 	//speed.y = ofRandom(-5, 5);
 
-	centerColor = ofColor(255,255,255);
-	innerColor = ofColor(255, 0, 0);
-	outerColor = ofColor(0, 255, 0);
+	centerColor = ofColor(255,255,255,255);
+	innerColor = ofColor(14, 254, 128, 8);
+	outerColor = ofColor(14, 254, 128, 1);
 }
 
 void Particle::setup() {
 }
 
 void Particle::move() {
-	position += speed;
-
+	position += .2 ;
 }
 
 void Particle::draw() {
@@ -29,6 +28,7 @@ void Particle::draw() {
 	ofDrawCircle(position.x, position.y, radius);
 
 	ofSetColor(outerColor);
-	ofDrawCircle(position.x, position.y, radius * 2);
+	ofDrawCircle(position.x, position.y, radius * 3);
+	
 
 }
