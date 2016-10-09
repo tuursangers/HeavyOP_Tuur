@@ -1,10 +1,10 @@
 #include "Particle.h"
 
 Particle::Particle(int startX, int startY) {
-	radius = ofRandom(2, 20);
+	radius = ofRandom(12, 18);
 	position = ofPoint(startX,startY);
 
-	speed = ofVec2f(ofRandom(-2, 2), ofRandom(-2, 2));
+	speed = ofVec2f(ofRandom(-3, 3), ofRandom(-3, 3));
 
 	centerColor = ofColor(255,255,255,255);
 	innerColor = ofColor(centerColor, 60);

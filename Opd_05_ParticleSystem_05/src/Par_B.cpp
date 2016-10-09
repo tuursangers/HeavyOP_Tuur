@@ -6,11 +6,12 @@ Par_B::Par_B(int startX, int startY) : Particle(startX, startY) {
 	//innerColor = ofColor(251,255,67, 8);
 	//outerColor = ofColor(251, 255, 67, 1);
 	curve = ofVec2f(ofRandom(-5, 5), ofRandom(-5, 5));
+	radius = ofRandom(2, 5);
 }
 
 void Par_B::move() {
 	
-	curve.rotate(2);
+	curve.rotate(5);
 	position += curve;
 
 }

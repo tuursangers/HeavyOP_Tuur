@@ -1,0 +1,13 @@
+﻿  main.cpp
+  ofApp.cpp
+  Particle.cpp
+  Emitter.cpp
+  ParticleReaper.cpp
+  Par_B.cpp
+src\ofApp.cpp(31): error C3867: 'std::vector<Particle *,std::allocator<_Ty>>::erase': non-standard syntax; use '&' to create a pointer to member
+          with
+          [
+              _Ty=Particle *
+          ]
+src\ofApp.cpp(31): error C2109: subscript requires array or pointer type
+c:\openframeworks\apps\heavyop_tuur\opd_06_particlesystem_06\src\particle.cpp(81): warning C4715: 'Particle::checkDead': not all control paths return a value

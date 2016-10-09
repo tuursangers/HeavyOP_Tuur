@@ -10,10 +10,10 @@ void ofApp::setup(){
 
 	EmitPoint01 = Emitter();
 	EmitPoint01.setOrigin(ofGetMouseX(), ofGetMouseY());
-	EmitPoint01.setCurvingParticleRatio(.5);
+	EmitPoint01.setCurvingParticleRatio(.6);
 	EmitPoint02 = Emitter();
 	EmitPoint02.setOrigin(700,700);
-	EmitPoint01.setCurvingParticleRatio(.5);
+	EmitPoint01.setCurvingParticleRatio(0);
 
 
 }
@@ -54,7 +54,7 @@ void ofApp::draw(){
 
 	for (int i = 0; i < particles.size(); i++) {
 		particles[i]->draw();
-		particles[i]->positionColor();
+		//particles[i]->positionColor();
 		particles[i]->ChangeOpacity();
 	}
 
